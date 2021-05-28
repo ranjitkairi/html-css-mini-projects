@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Date | Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Want to host a webinar?</h3>
+      <p>
+        File the details below and we'll take you to a detailed from where you
+        <br />
+        can add more information about your webinar.
+      </p>
+      <form action="/action_page.php">
+        <label for="lname"
+          >Location
+          <input
+            type="text"
+            id="lname"
+            name="locationname"
+            placeholder="&emsp;&#xe567;Enter location name"
+          />
+        </label>
+        <div class="checkbox-type">
+          <label for="checkbox-type"></label>
+          <input type="checkbox" value="None" id="checkbox-type" name="check" />
+          <span class="checkbox">Online webinar</span>
+        </div>
+        <label for="tname"
+          >Time
+          <input
+            type="text"
+            id="tname"
+            name="timename"
+            placeholder="&emsp;&#9202;9:00 AM"
+          />
+        </label>
+        <label for="dname"
+          >Date
+          <input
+            type="text"
+            id="dname"
+            name="datename"
+            placeholder="&emsp;&#128197;June 21,2021"
+          />
+        </label>
+      </form>
+      <div class="checkbox-type">
+        <label for="checkbox-type"></label>
+        <input type="checkbox" value="None" id="checkbox-type" name="check" />
+        <span class="checkbox"
+          >I have read and agree to the
+          <a href="#">Terms and Conditions</a></span
+        >
+      </div>
+      <button>Continue</button>
+      <!-- <input type="button" value="Continue" /> -->
+    </div>
+  </body>
+</html>
